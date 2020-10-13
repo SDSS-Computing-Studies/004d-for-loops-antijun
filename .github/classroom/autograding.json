@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Task 1",
+      "setup": "",
+      "run": "python3 task1.py",
+      "input": "5",
+      "output": "5 10 15 20 25",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Task 2",
+      "setup": "",
+      "run": "python3 task2.py",
+      "input": "Kobe",
+      "output": "is on the list",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "Task 3",
+      "setup": "",
+      "run": "python3 task3.py",
+      "input": "",
+      "output": "25\r\n10\r\n30\r\n20",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Problem 1",
+      "setup": "",
+      "run": "python3 problem1.py",
+      "input": "3",
+      "output": "***\r\n***\r\n***",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "Problem2.py",
+      "setup": "",
+      "run": "python3 problem2.py",
+      "input": "5",
+      "output": "120",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Problem3.py",
+      "setup": "",
+      "run": "python3 problem3.py",
+      "input": "6",
+      "output": "123456",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}
